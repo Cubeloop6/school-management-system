@@ -29,8 +29,14 @@ public class Main {
 	
 		tamasha.payFees(5000);
 		System.out.println("GHS has earned " + ghs.getTotalMoneyEarned());
-		
+		lizzy.receiveSalary(lizzy.getSalary());
+		System.out.println(lizzy.getName() + ghs.getTotalMoneyEarned());
 	
+		venderhorn.receiveSalary(venderhorn.getSalary());
+		System.out.println(venderhorn.getName() + ghs.getTotalMoneyEarned());
+		
+		System.out.println(rakshith);
+		System.out.println(mellisa);
 	}
 	
 }
