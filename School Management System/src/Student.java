@@ -15,12 +15,33 @@ public class Student {
 	}
 	
 	
-	public void setGrade(int grade) {
-		this.grade = grade;
+	public int getId() {
+		return id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public int getGrade() {
+		return grade;
+	}
+
+
+	public int getFeesPaid() {
+		return feesPaid;
+	}
+
+
+	public int getFeesTotal() {
+		return feesTotal;
 	}
 	
 	public void updateFeesPaid(int fees) {
 		this.feesPaid += fees;
 	}
+	
 	
 }
